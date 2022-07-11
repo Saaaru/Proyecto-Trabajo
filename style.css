@@ -1,0 +1,108 @@
+body {
+    font-family: sans-serif;
+
+}
+img{
+    width: 150px;
+    border: solid black 2px;
+}
+div {
+    border: solid black 1px;
+    margin: 5px;
+    padding: 2px;
+}
+/* input {
+    border: none blue 1px;
+} */
+/* .container {
+    border: solid black 2px;
+} */
+.form {
+    border-width: 80%;
+    height: 90vh;
+    min-height: 90vh;
+}
+
+.form {
+    display: grid;
+    grid-template-rows: [row1-start] 1fr [row1-end] 1fr [third-row] 1fr [quarter-row] 1fr [fifth-row] 1fr [sixth-row] 45% [seventh-row] 1fr;  
+}
+
+/* .flex-form {
+    display: grid;
+} */
+
+.first-row, .second-row,.third-row,.quarter-row, .quarter-2-row, .fifth-row, .sixth-row, .seventh-row {
+    border: solid black 1px;
+}
+
+.second-row h2 {
+    text-align: center;
+}
+.third-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.solicitud, .actividad{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.daylist, .monthlist{
+    margin-top: 10px;
+    height: 2em;
+}
+
+
+.quarter-row > div {
+    border: none;
+}
+
+.numHoras {
+    border: solid black 1px;
+}
+.fifth-row {
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    align-items: center;
+}
+.sixth-row > p {
+    border-bottom: solid black 1px;
+    margin: 10px;
+    padding-top: 8px;
+}
+
+.textarea {
+   margin: 10px;
+    
+} 
+
+/* .seventh-row {
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+} */
+
+.seventh-row {
+    height: 90px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-self: stretch;
+
+}
+
+.seventh-row div{
+    border: none;
+    border-top: dotted black 1px;
+    align-self: end;
+    text-align: center;
+}
+
+
+
+
+
+
